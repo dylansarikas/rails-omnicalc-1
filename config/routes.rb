@@ -8,5 +8,6 @@ Rails.application.routes.draw do
     get "/square_root/results" => "squareroots#results"
 
     get "/payment/new" => "payments#show"
+    get "/payment/results" => "payments#results"
   
 end
