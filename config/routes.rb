@@ -9,5 +9,8 @@ Rails.application.routes.draw do
 
     get "/payment/new" => "payments#show"
     get "/payment/results" => "payments#results"
+
+    get "random/new" => "randoms#show"
+    get "random/results" => "randoms#results"
   
 end
